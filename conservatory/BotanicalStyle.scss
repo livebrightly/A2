@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* colour pallete               |  variations
+   #142008 (Pine)               |  #3d6318 (Dark Moss Green)
+   #efe6ef (Lavender Blush)     |  #cdc6d2 (Lavender Grey) 
+   #ebf7ff (Alice Blue)         |  #d6eeff (Beau Blue) 
+   #fffbeb (Cosmic Latte)       |  #e0b400 (Gold Metallic) 
+   #da9c95 (Pastel Pink)        |  #883930 (Burnt Umber) 
+
+neutrals:  #0a0a0a (Rich Black 39)
+           #f5f5f5 (grey light)
+
+   */
+
+
+body {
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+   // overflow: hidden;
+
+}
+
+// #container {
+//     width: 100%;
+//     height: 10%;
+  //  height: 100%;
+    // background-color: whitesmoke;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    // scroll-behavior: smooth;
+    // touch-action: none;
+ //   border: 10px solid rgba(136, 136, 136, .5);
+
+ // }
+
+/* .Garden {
+	fill: pink;
+} */
+
+.smallcircle{fill:#FFFBEB;}
+.st1{fill:#E0B400;}
+
+
+
+.scrollingphrase1 {
+    height: 50px;	
+    overflow: hidden;
+    position: relative;
+   }
+
+//    .scrollingphrase1 h4 {
+//     font-size: 1em;
+//     color: #545454;
+//     position: absolute;
+//     width: 100%;
+//     height: 100%;
+//     margin: 0;
+//     line-height: 50px;
+//     text-align: center;
+    /* Starting position */
+    // -moz-transform:translateX(100%);
+    // -webkit-transform:translateX(100%);	
+    // transform:translateX(100%);
+    /* Apply animation to this element */	
+//     -moz-animation: scrollingphrase1 15s linear infinite;
+//     -webkit-animation: scrollingphrase1 15s linear infinite;
+//     animation: scrollingphrase1 15s linear infinite;
+//    }
+   /* Move it (define the animation) */
+//    @-moz-keyframes scrollingphrase1 {
+//     0%   { -moz-transform: translateX(100%); }
+//     100% { -moz-transform: translateX(-100%); }
+//    }
+//    @-webkit-keyframes scrollingphrase1 {
+//     0%   { -webkit-transform: translateX(100%); }
+//     100% { -webkit-transform: translateX(-100%); }
+//    }
+//    @keyframes scrollingphrase1 {
+//     0%   { 
+    // -moz-transform: translateX(100%); /* Firefox bug fix */
+//-webkit-transform: translateX(100%); /* Firefox bug fix */
+    // transform: translateX(100%); 		
+    // }
+    // 100% { 
+    // -moz-transform: translateX(-100%); /* Firefox bug fix */
+    // -webkit-transform: translateX(-100%); /* Firefox bug fix */
+    // transform: translateX(-100%); 
+    // }
+//    }
+
+   .row1 {
+       height: 100vh;
+       background-color:#fffbeb ;
+       fill:#E0B400;
+       overflow: hidden;
+       position: relative;
+   }
+
+   .layerdescription {
+    box-sizing: border-box;
+    height: 100vh;
+    background-color:#fffbeb ;
+    fill:#E0B400;
+    overflow: hidden;
+    position: absolute;
+   }
+   
+   

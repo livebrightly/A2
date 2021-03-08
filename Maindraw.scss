@@ -1,0 +1,670 @@
+html {
+    height: 3000px;
+width: 4000px;
+/*  height: 130vh; 
+ width: 120vw;
+ using viewport failed to adjust the height and width of the page, used pixels as a workaround 
+ */
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #000000;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    margin: 0;
+}
+
+// box-shadow: inset[insideshadow]  [1) x-val]  [2) y-val] [3)BlurRadius] [4)Spread] 
+
+.wall {
+    content: "";
+    display: inline-grid;
+    position: absolute;
+    margin: 0px;
+    top: -301px;
+    left: -1561px;
+    margin-top: 1200px;
+    width: 2210px;
+    height: 30px;
+    border-radius: 1%;
+    border: 1px #0f0002;
+    background: #620009;
+    justify-content: center;
+    align-items: baseline;
+    box-shadow: inset -2px 10px 30px 2px rgba(4, 0, 0, .2);
+}
+
+//link/Doorway to other sites
+.door-light {
+    position: absolute;
+    border-bottom: 2260px solid rgb(255, 167, 53);
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    height: 0px;
+    left: 71px;
+    top: -2184px;
+    width: 181px;
+    transform: rotate(3deg);
+    z-index: -1;
+}
+
+.door {
+    position: absolute;
+    border-bottom: 430px solid rgb(63, 49, 49);
+    border-left: 260px solid transparent;
+    border-right: 260px solid transparent;
+    height: 0;
+    top: 400px;
+    left: -1691px;
+    width: 860px;
+    transform: rotate(90deg);
+    z-index: 1;
+}
+.door-closed {
+    position: absolute;
+    border-bottom: 423px solid #8d0000;
+    border-left: 230px solid transparent;
+    border-right: 230px solid transparent;
+    height: 0;
+    top: -28px;
+    left: -210px;
+    width: 755px;
+    z-index: 2;
+}
+
+
+
+#ConservatorydoorOne {}
+
+// #bea4a4 pretty dusty rose colour
+
+.bothdesks {
+    position: relative;
+    padding: 100px;
+}
+
+.container1 {
+    display: flex;
+    top: 422px;
+    justify-content: center;
+    position: relative;
+}
+
+.container2 {
+    display: flex;
+    transform: rotate(180deg);
+    top: 2021px;
+    justify-content: center;
+    position: relative;
+    margin-top: 300px;
+    margin-bottom: 300px;
+}
+
+.extraspace {
+    padding: 70px;
+    height: 2323px;
+    background-color: rgba(255, 0, 0, 0.103);
+    top: 0px;
+}
+
+
+.desk {
+    display: grid;
+    position: absolute;
+    width: 1450px;
+    height: 250px;
+    border-radius: 1%;
+    border: 1px solid black;
+    background: #620009;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.desk::before {
+    content: "";
+    position: absolute;
+    width: 1450px;
+    height: 250px;
+    border-radius: 1%;
+    box-shadow: inset -2px 10px 30px 2px rgba(4, 0, 0, .2);
+}
+
+.desk::after {
+    content: "";
+    position: absolute;
+    width: 1390px;
+    height: 0px;
+    background: none;
+    margin-top: 247px;
+    border-bottom: 20px solid rgb(71, 0, 0);
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    transform: rotate(180deg);
+}
+
+.desklegs {
+    display: flex;
+    position: absolute;
+    width: 1005px;
+    height: 0px;
+    background: none;
+    border-radius: 1%;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.desklegs::before {
+    content: "";
+    position: absolute;
+    width: 1005px;
+    height: 0px;
+    background: none;
+    top: 245px;
+    border-radius: 1%;
+    border-bottom: 160px solid rgb(53, 1, 1);
+    border-left: 224px solid transparent;
+    border-right: 224px solid transparent;
+    z-index: -2;
+    transform: rotate(180deg);
+}
+
+.desklegs-cutout {
+    position: absolute;
+    width: 985px;
+    height: 0px;
+    background: #0f0002;
+    top: 250px;
+    border-radius: 1%;
+    border-bottom: 160px solid black;
+    border-left: 224px solid transparent;
+    border-right: 224px solid transparent;
+    z-index: -1;
+    transform: rotate(180deg);
+
+}
+
+/* Enlarger */
+#enlarger1 {
+    position: relative;
+    height: auto;
+    width: auto;
+    top: auto;
+    left: -330px;
+    transform: scale(0.75)
+}
+
+#enlarger2 {
+    position: relative;
+    height: auto;
+    width: auto;
+    top: auto;
+    left: auto;
+    transform: scale(0.75)
+}
+
+#enlarger3 {
+    position: relative;
+    height: auto;
+    width: auto;
+    left: 360px;
+    transform: scale(0.75)
+}
+
+/* .full-Enlarger-assembled {
+    position: relative;
+    height: auto;
+    width: auto;
+    top: auto;
+    left: auto;
+} */
+
+
+
+/* Wet Side of the Room */
+
+
+.sink {
+    content: "";
+    position: absolute;
+    width: 900px;
+    height: 227px;
+    // background: #e40d0d;
+    background: #9e1111;
+    top: 9px;
+    left: -231px;
+    border-radius: 2px;
+}
+
+.sink-sideA {
+    content: "";
+    position: absolute;
+    width: 396px;
+    height: 0px;
+    top: 171px;
+    left: 495px;
+    background: none;
+    border-bottom: 45px solid rgba(87, 1, 1, 0.226);
+    border-left: 45px solid transparent;
+    border-right: 45px solid transparent;
+}
+
+.sink-sideB {
+    content: "";
+    position: absolute;
+    width: 396px;
+    height: 0px;
+    top: 40px;
+    left: 495px;
+    background: none;
+    border-bottom: 45px solid rgba(87, 1, 1, 0.226);
+    border-left: 45px solid transparent;
+    border-right: 45px solid transparent;
+    transform: rotate(180deg);
+}
+
+.sink-sideC {
+    content: "";
+    position: absolute;
+    width: 178px;
+    height: 0px;
+    top: 106px;
+    left: 433px;
+    background: none;
+    border-bottom: 45px solid rgba(87, 1, 1, 0.226);
+    border-left: 45px solid transparent;
+    border-right: 45px solid transparent;
+    transform: rotate(90deg);
+}
+
+.sink-sideD {
+    content: "";
+    position: absolute;
+    width: 178px;
+    height: 0px;
+    top: 106px;
+    left: 775px;
+    background: none;
+    border-bottom: 45px solid rgba(87, 1, 1, 0.226);
+    border-left: 45px solid transparent;
+    border-right: 45px solid transparent;
+    transform: rotate(270deg);
+}
+
+.sink-sideE {
+    content: "";
+    position: absolute;
+    width: 396px;
+    height: 0px;
+    top: 14px;
+    left: 495px;
+    background: none;
+    border-bottom: 45px solid rgba(116, 5, 5, 0.212);
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    transform: rotate(180deg);
+    box-shadow: inset -2px 10px 30px 2px rgba(4, 0, 0, .2);
+}
+
+.sink-sideE::after {
+    content: "";
+    position: absolute;
+    width: 386px;
+    top: -12px;
+    left: -8px;
+    background: none;
+    border-bottom: 45px solid rgb(179, 8, 8);
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    box-shadow: inset -2px 10px 30px 2px rgba(4, 0, 0, .2);
+}
+
+.sinkdrain {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #1f0101ab;
+    border: 3px #5e0303;
+    top: 92px;
+    left: 812px;
+    border-radius: 50%;
+    z-index: 5;
+}
+
+.sinkfaucet {
+    content: "";
+    position: absolute;
+    top: 74px;
+    left: 772px;
+    z-index: 15;
+}
+
+.sinkfaucet2 {
+    content: "";
+    position: absolute;
+    top: 74px;
+    left: 632px;
+    z-index: 15;
+}
+
+.sinkknobL {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 10px;
+    height: 4px;
+    top: 44px;
+    left: 604px;
+    background-color: rgb(94, 5, 5);
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    z-index: 16;
+}
+
+.sinkknobL::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 10px;
+    height: 4px;
+    top: 0px;
+    left: 44px;
+    background-color: rgb(94, 5, 5);
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    z-index: 16;
+}
+
+.sinkknobL::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 4px;
+    height: 10px;
+    top: -3px;
+    left: 5px;
+    background-color: rgb(94, 5, 5);
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    z-index: 16;
+}
+
+.sinkknobR {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 10px;
+    height: 4px;
+    top: 44px;
+    left: 754px;
+    background-color: rgb(94, 5, 5);
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    z-index: 16;
+}
+
+.sinkknobR::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 4px;
+    height: 10px;
+    top: -3px;
+    left: 47px;
+    background-color: rgb(94, 5, 5);
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    z-index: 16;
+}
+
+
+.sinkspout {
+    content: "";
+    position: absolute;
+    width: 10px;
+    top: -4px;
+    height: 76px;
+    left: 0px;
+    background: #c40a0a;
+    border-radius: 100px / 80px;
+    z-index: 16;
+}
+
+.sinkspout::before {
+    content: "";
+    position: absolute;
+    width: 8px;
+    top: 12px;
+    left: 1px;
+    height: 54px;
+    background: red;
+    border-radius: 100px / 80px;
+    z-index: 16;
+}
+
+
+.sinkspout::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    top: 12px;
+    left: 3px;
+    height: 48px;
+    background: rgb(255, 88, 88);
+    border-radius: 100px / 80px;
+    z-index: 16;
+}
+
+
+/* for the taps bgcol> solid rgba(87, 1, 1, 0.877) */
+
+// shapes: rectangle made into wavey line
+/* .cording {} */
+
+// shapes: rectangles
+/* .filterslots {} */
+
+// shapes: rectangles at different angles
+/* .negatcarrier {} */
+
+
+
+
+
+
+
+// Accesories both:
+/* .tongs {} */
+
+
+// Accessories dry:
+
+// shapes: circle within circles
+/* .filmreels {}
+*/
+// shapes: circle within circles
+/* .filmtank {} */
+
+
+/* Wet Side of the Room */
+
+// Accessories wet:
+
+// shapes: rectangles inside rectangles
+.the1stray {
+    position: absolute;
+    top: 96px;
+    left: 100px;
+}
+
+.the2ndtray {
+    position: absolute;
+    top: 96px;
+    left: -5px;
+}
+
+.the3rdtray {
+    position: absolute;
+    top: 96px;
+    left: -110px;
+}
+
+.the3rdtray2 {
+    position: absolute;
+    top: 96px;
+    left: -110px;
+    transform: scale(0.95) rotate(11deg);
+}
+
+.the4thtray {
+    position: absolute;
+    top: 90px;
+    left: 327px;
+    transform: scale(0.95) rotate(11deg);
+}
+
+.developingtray {
+    content: "";
+    position: absolute;
+    width: 64px;
+    height: 84px;
+    background: #b60d0d;
+    border-radius: 10px;
+    z-index: 5;
+}
+
+.developingtray::before {
+    content: "";
+    position: absolute;
+    width: 66px;
+    height: 84px;
+    background: #da0e0e;
+    top: 7px;
+    left: -4px;
+    border-radius: 10px;
+    z-index: 4;
+}
+
+
+.developingtray::after {
+    content: "";
+    position: absolute;
+    width: 59px;
+    height: 75px;
+    background: #b60d0d;
+    top: 11px;
+    left: -1px;
+    border-radius: 10px;
+    z-index: 4;
+}
+
+.developingtraytop {
+    content: "";
+    position: absolute;
+    width: 55px;
+    height: 71px;
+    background: #da0e0e;
+    top: 13px;
+    left: 1px;
+    border-radius: 10px;
+    z-index: 6;
+}
+
+
+.shortgrooves-left {
+    content: "";
+    position: absolute;
+    z-index: 7;
+    top: 38px;
+    left: 0px;
+}
+
+.shortgrooves-left2 {
+    content: "";
+    position: absolute;
+    z-index: 7;
+    top: 29px;
+    left: 55px;
+    transform: rotate(180deg);
+}
+
+
+
+.shortgroove-sml {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 0px;
+    background: none;
+    border-top: 2px solid transparent;
+    border-left: 7px solid rgba(179, 8, 8, 0.774);
+    border-bottom: 1px solid transparent;
+    border-radius: 40%;
+    z-index: 6;
+}
+
+.shortgroove-sml::after {
+    content: "";
+    position: absolute;
+    background: none;
+    top: -14px;
+    left: -7px;
+    border-top: 2px solid transparent;
+    border-left: 7px solid rgba(179, 8, 8, 0.774);
+    border-bottom: 1px solid transparent;
+    border-radius: 40%;
+    z-index: 6;
+}
+
+.shortgroove-sml-tray {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 58px;
+    background: #b30808;
+    top: -33.25px;
+    left: 21.25px;
+    border-radius: 10px;
+    z-index: 10;
+}
+
+.shortgroove-sml-tray::after {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 58px;
+    background: #b30808;
+    top: 0px;
+    left: 19px;
+    border-radius: 10px;
+    z-index: 5;
+}
+
+/* .chem1-developer {}
+*/
+// shapes: rectangle with circle lid
+/* .chem2-stopbath {}
+*/
+/* .chem3-fixer {}
+*/
+/* .chem4-colprocessor {}
+*/
+
+// shapes: circle rectangle handle and 2 mini triangles spout
+/* .gradjug {}
+*/
+/* .neatrectangle {
+  content: "";
+  position: absolute;
+  width: 1000px;
+  background: #ffffff;
+  top: 10px;
+  border-bottom: 250px solid rgb(71, 0, 0);
+  border-left: 250px solid transparent;
+  border-right: 250px solid transparent;
+  transform:rotate(180deg);
+} */

@@ -1,0 +1,317 @@
+/* Masking Easel */
+* #Complete-Masking- {
+	position: absolute;
+}
+
+#MaskingEasel1 {
+	position: absolute;
+	height: auto;
+	width: auto;
+	top: 80px;
+	left: -461px;
+	transform: rotate(358deg);
+}
+
+#MaskingEasel2 {
+	position: absolute;
+	height: auto;
+	width: auto;
+	top: 80px;
+	left: -491px;
+	transform: rotate(346deg);
+}
+
+#MaskingEasel3 {
+	position: absolute;
+	height: auto;
+	width: auto;
+	top: 30px;
+	left: 169px;
+}
+
+.Complete-Masking-Easel {
+	position: absolute;
+	z-index: 5;
+	transform: scale(0.95);
+}
+
+#Complete-Masking-Handle {
+	position: absolute;
+	z-index: -1;
+	top: 5px;
+	left: 13px;
+}
+
+#Complete-Masking-Rails {
+	position: absolute;
+	z-index: -2;
+	top: 0px;
+	left: 0px;
+}
+
+#Complete-Masking-Straps {
+	position: absolute;
+	z-index: -3;
+	top: 0px;
+	left: 0px;
+}
+
+#Complete-Masking-edges {
+	position: absolute;
+	z-index: -4;
+	top: 0px;
+	left: 0px;
+}
+
+#Complete-Masking-base {
+	position: absolute;
+	z-index: -5;
+	top: 0px;
+	left: 0px;
+}
+
+
+/* Handles */
+.Handle01 {
+	fill: #D10707;
+	stroke: #4F0202;
+	stroke-miterlimit: 10;
+}
+
+.Handle02 {
+	fill: #660303;
+	stroke: #600202;
+	stroke-width: 0.75;
+	stroke-miterlimit: 10;
+}
+
+.Handle03 {
+	fill: #820303;
+}
+
+.Handle04 {
+	fill: #E80505;
+
+}
+
+.Handle04-outer {
+	position: absolute;
+	fill: #E80505;
+	stroke: #E80505;
+	stroke-miterlimit: 10;
+	left: 0px;
+	top: 0px;
+	height: auto;
+}
+
+.Handle04-mid-inner {
+	position: absolute;
+	fill: #820303;
+	stroke: #820303;
+	stroke-miterlimit: 10;
+	left: 0px;
+	top: 0px;
+	height: auto;
+}
+
+.Handle04-inner {
+	position: absolute;
+	fill: #820303;
+	stroke: #820303;
+	stroke-miterlimit: 10;
+	left: 0px;
+	top: 0px;
+	height: auto;
+}
+
+
+
+/* Rails */
+.Rail01 {
+	display: none;
+}
+
+.Rail02 {
+	display: inline;
+	fill: #D10707;
+	stroke: #4F0202;
+	stroke-miterlimit: 10;
+}
+
+.Rail03 {
+	display: inline;
+	fill: #4F0202;
+	stroke: #D10707;
+	stroke-miterlimit: 10;
+}
+
+.Rail04 {
+	fill: none;
+	stroke: #4F0202;
+	stroke-miterlimit: 10;
+}
+
+.Rail05 {
+	display: inline;
+}
+
+.Rail06 {
+	fill: #660303;
+	stroke: #600202;
+	stroke-width: 0.75;
+	stroke-miterlimit: 10;
+}
+
+.Rail07 {
+	fill: #820303;
+}
+
+.Rail08 {
+	fill: #E80505;
+}
+
+/* Straps */
+.Strap01 {
+	display: none;
+}
+
+.Strap02 {
+	display: inline;
+	fill: #D10707;
+	stroke: #4F0202;
+	stroke-miterlimit: 10;
+}
+
+.Strap03 {
+	fill: #4F0202;
+	stroke: #D10707;
+	stroke-miterlimit: 10;
+}
+
+.Strap04 {
+	display: inline;
+	fill: none;
+	stroke: #4F0202;
+	stroke-miterlimit: 10;
+}
+
+.Strap05 {
+	display: inline;
+}
+
+.Strap06 {
+	fill: #660303;
+	stroke: #600202;
+	stroke-width: 0.75;
+	stroke-miterlimit: 10;
+}
+
+.Strap07 {
+	fill: #820303;
+}
+
+.Strap08 {
+	fill: #E80505;
+}
+
+/* Edges */
+.Edges01 {
+	display: none;
+}
+
+.Edges02 {
+	display: inline;
+	fill: #D10707;
+	stroke: #4F0202;
+	stroke-miterlimit: 10;
+}
+
+.Edges03 {
+	fill: #D10707;
+	stroke: #4F0202;
+	stroke-miterlimit: 10;
+}
+
+.Edges04 {
+	display: inline;
+	fill: #4F0202;
+	stroke: #D10707;
+	stroke-miterlimit: 10;
+}
+
+.Edges05 {
+	display: inline;
+	fill: none;
+	stroke: #4F0202;
+	stroke-miterlimit: 10;
+}
+
+.Edges06 {
+	display: inline;
+}
+
+.Edges07 {
+	fill: #660303;
+	stroke: #600202;
+	stroke-width: 0.75;
+	stroke-miterlimit: 10;
+}
+
+.Edges08 {
+	fill: #820303;
+}
+
+.Edges09 {
+	fill: #E80505;
+}
+
+/* Masking Base */
+.MASKBase01 {
+	fill: #ed0000;
+	stroke: #4F0202;
+	stroke-miterlimit: 10;
+}
+
+.MASKBase02 {
+	display: none;
+}
+
+.MASKBase03 {
+	display: inline;
+	fill: #ed0000;
+	stroke: #4F0202;
+	stroke-miterlimit: 10;
+}
+
+.MASKBase04 {
+	display: inline;
+	fill: #4F0202;
+	stroke: #ed0000;
+	stroke-miterlimit: 10;
+}
+
+.MASKBase05 {
+	display: inline;
+	fill: none;
+	stroke: #4F0202;
+	stroke-miterlimit: 10;
+}
+
+.MASKBase06 {
+	display: inline;
+}
+
+.MASKBase07 {
+	fill: #660303;
+	stroke: #600202;
+	stroke-width: 0.75;
+	stroke-miterlimit: 10;
+}
+
+.MASKBase08 {
+	fill: #820303;
+}
+
+.MASKBase09 {
+	fill: #E80505;
+}

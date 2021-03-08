@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* colour pallete               |  variations
+   #142008 (Pine)               |  #3d6318 (Dark Moss Green)
+   #efe6ef (Lavender Blush)     |  #cdc6d2 (Lavender Grey) 
+   #ebf7ff (Alice Blue)         |  #d6eeff (Beau Blue) 
+   #fffbeb (Cosmic Latte)       |  #e0b400 (Gold Metallic) 
+   #da9c95 (Pastel Pink)        |  #883930 (Burnt Umber) 
+
+neutrals:  #0a0a0a (Rich Black 39)
+           #f5f5f5 (grey light)
+
+   */
+body {
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* .Garden {
+	fill: pink;
+} */
+.smallcircle {
+  fill: #FFFBEB;
+}
+
+.st1 {
+  fill: #E0B400;
+}
+
+.scrollingphrase1 {
+  height: 50px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Starting position */
+/* Apply animation to this element */
+/* Move it (define the animation) */
+.row1 {
+  height: 100vh;
+  background-color: #fffbeb;
+  fill: #E0B400;
+  overflow: hidden;
+  position: relative;
+}
+
+.layerdescription {
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: #fffbeb;
+  fill: #E0B400;
+  overflow: hidden;
+  position: absolute;
+}/*# sourceMappingURL=BotanicalStyle.css.map */

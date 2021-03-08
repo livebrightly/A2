@@ -1,0 +1,124 @@
+/* Enlarger */
+* #Complete-Enlarger- {
+	position: absolute;
+}
+
+/* Enlarger */
+.Complete-Enlarger-Main {
+	position: absolute;
+	z-index: 4;
+	height:auto;
+	width: auto;
+    top: -294px;
+    left: -253px;
+	transform: scale(1);
+}
+
+/* Enlarger Height Control Ring */
+#Complete-Enlarger-Height-Ring {
+	position: absolute;
+    z-index: 1;
+    top: 111px;
+    left: 93px;
+}
+.Enlarger-Height-Ring01{fill:#A30404;stroke:#540000;stroke-width:0.75;stroke-miterlimit:10;}
+.Enlarger-Height-Ring02{fill:#4F0202;}
+.Enlarger-Height-Ring03{fill:#4F0202;stroke:#4F0202;stroke-miterlimit:10;}
+
+/* Enlarger Focus Ring */
+#Complete-Enlarger-Focus-Ring {
+	position: absolute;
+    z-index: 1;
+    top: 97px;
+    left: 103px;	
+}
+.Enlarger-Focus-Ring01{fill:#A30404;stroke:#540000;stroke-miterlimit:10;}
+.Enlarger-Focus-Ring02{fill:#4F0202;stroke:#4F0202;stroke-miterlimit:10;}
+.Enlarger-Focus-Ring03{fill:#A30404;}
+.Enlarger-Focus-Ring04{fill:#4F0202;}
+
+
+/* Enlarger Head */
+#Complete-Enlarger-Compressor {
+	position: absolute;
+	z-index: 0;
+	top: 0px;
+	left: 0px;	
+}
+.Enlarger-Compressor01{fill:#FF0000;stroke:#DD0000;stroke-miterlimit:10;}
+.Enlarger-Compressor02{fill:#DD0000;stroke:#FF0000;stroke-miterlimit:10;}
+.Enlarger-Compressor03{fill:#D10000;stroke:#AA0000;stroke-width:0.25;stroke-miterlimit:10;}
+.Enlarger-Compressor04{fill:#D10000;stroke:#AA0000;stroke-width:0.75;stroke-miterlimit:10;}
+.Enlarger-Compressor05{fill:#D10000;stroke:#AA0000;stroke-miterlimit:10;}
+.Enlarger-Compressor06{fill:#660303;stroke:#600202;stroke-width:0.75;stroke-miterlimit:10;}
+.Enlarger-Compressor07{fill:#820303;}
+.Enlarger-Compressor08{fill:#DD0000;}
+.Enlarger-Compressor09{fill:none;stroke:#820303;stroke-miterlimit:10;}
+.Enlarger-Compressor10{fill:none;stroke:#820303;stroke-width:0.25;stroke-miterlimit:10;}
+.Enlarger-Compressor11{fill:#E80505;}
+
+/* Enlarging Lens */
+#Complete-Enlaging-Lens {
+	position: absolute;
+    z-index: 0;
+    top: 204px;
+    left: 45px;	
+}
+.Enlarging-Lens01{fill:#D10000;stroke:#AA0000;stroke-width:0.25;stroke-miterlimit:10;}
+.Enlarging-Lens02{fill:none;stroke:#660303;stroke-width:3;stroke-miterlimit:10;}
+.Enlarging-Lens03{fill:#820303;}
+.Enlarging-Lens04{fill:#660303;}
+.Enlarging-Lens05{fill:#600202;}
+.Enlarging-Lens06{fill:#D10000;}
+
+/* Enlarger Red-Safe Filter */
+#Complete-RedSafeFilter {
+	position: absolute;
+    z-index: -1;
+    top: 202px;
+    left: 8px;
+}
+.RedSafeFilter01{fill:#D10000;}
+.RedSafeFilter02{fill:#660303;}
+
+/* Enlarger Column Support Back */
+#Complete-Column-Support {
+	position: absolute;
+    z-index: -1;
+    top: 69px;
+    left: 95px;
+}
+.Column-Support01{fill:#E80505;}
+.Column-Support02{fill:#DD0000;stroke:#FF0000;stroke-miterlimit:10;}
+
+
+/* Enlarger Column with knobs */
+#Complete-Enlarger-Column-wKnobs {
+	position: absolute;
+	z-index: -1;
+    top: -75px;
+    left: 42px;
+}
+.EColumn-wknobs01{fill:#990000;}
+.EColumn-wknobs02{fill:#CC3333;}
+.EColumn-wknobs03{fill:#CC0000;}
+.EColumn-wknobs04{fill:#B20000;}
+.EColumn-wknobs05{fill:#4F0202;}
+.EColumn-wknobs06{fill:#660303;stroke:#600202;stroke-width:0.75;stroke-miterlimit:10;}
+.EColumn-wknobs07{fill:#820303;}
+.EColumn-wknobs08{fill:#E80505;}
+
+
+/* Column Legs */
+#Complete-Enlarger-Legs {
+	position: absolute;
+	z-index: -1;
+    top: 290px;
+    left: 42px;	
+}
+.Column-legs01{fill:#820303;}
+.Column-legs02{fill:#D10000;stroke:#AA0000;stroke-width:0.25;stroke-miterlimit:10;}
+.Column-legs03{fill:#DD0000;stroke:#FF0000;stroke-miterlimit:10;}
+.Column-legs04{fill:#DD0000;stroke:#FF0000;stroke-width:0.5;stroke-miterlimit:10;}
+
+
